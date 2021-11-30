@@ -1,0 +1,58 @@
+.game-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 450px);
+  gap: 40px;
+  padding: 40px;
+  justify-content: center;
+  
+  }
+  
+  .create-btn {
+    margin-top: 1rem;
+    margin-left: 1rem;
+    
+  }
+
+  .create-game{
+    color: white;
+    font-size: 1rem;
+    float: right;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    border: 1px solid transparent;
+    cursor: pointer;
+
+    &:hover:not(.active) {
+        background-color: gold;
+        color: black;
+    }
+
+  }
+  .reload-btn {
+    display: flex;
+    margin-bottom: 1rem;
+    float: center;
+    justify-content: left;
+  }
+  
+  .reload {
+    background-color: transparent;
+    color: white;
+    font-size: 1rem;
+    float: right;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    border: 1px solid transparent;
+    cursor: pointer;
+
+    &:hover:not(.active) {
+        background-color: gold;
+        color: black;
+    }
+  }
+  .marginBottom {
+      margin-bottom: 2rem;
+      cursor: pointer;
+  }

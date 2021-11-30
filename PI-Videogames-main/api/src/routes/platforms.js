@@ -1,9 +1,7 @@
-const { Platform } = require ("../db");
-const axios = require("axios");
-const { API_KEY } = process.env;
+const { Router } = require("express");
+const router = Router();
+const { getPlatforms } = require ("../../controllers/platforms")
 
-const getPlatform = async (req, res) => {
-    res.send("soy la ruta de platform")
-}
+router.get("/", getPlatforms)
 
-module.exports = getPlatform;
+module.exports = router;

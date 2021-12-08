@@ -2,7 +2,6 @@ import React, { useEffect } from "react";
 import { Link, useParams } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { getDetail } from "../../actions/index.js";
-import Loader from "../Loader/Loader";
 import imageDefault from "../images/image-default.jpg";
 import line from "../images/yellow-line.png"
 import "./Detail.scss";
@@ -20,6 +19,7 @@ export default function Detail() {
     function handleReset() {
         dispatch(getDetail());
     }
+
 
 
     return (

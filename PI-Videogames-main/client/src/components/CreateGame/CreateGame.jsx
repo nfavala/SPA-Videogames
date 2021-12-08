@@ -154,7 +154,7 @@ export default function CreateGame() {
                         ))}
                     </select>
                     
-                    <div className="inputs">
+                    <div className="inputsC">
                 {input.platforms.map((p) => (
                   <div className="selected">
                     <p>{p}</p>
@@ -197,7 +197,7 @@ export default function CreateGame() {
                         ))}
                     </select>
 
-                    <div className="inputs">
+                    <div className="inputsC">
                         {input.genres.map(g => (
                             <div key={g.name} className="selected">
                                 <p>{g}</p>

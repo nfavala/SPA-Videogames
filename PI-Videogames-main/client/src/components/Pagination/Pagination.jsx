@@ -11,7 +11,7 @@ export default function Pagination({ gamesTotal, allVideogames, pagination }) {
     return(
         <div className="pagination-container">
             {pageNum && pageNum.map(n => (
-                <a key={n} onClick={() => pagination(n)}>{n}</a>
+                <a key={n} href onClick={() => pagination(n)}>{n}</a>
             ))}
         </div>
     )

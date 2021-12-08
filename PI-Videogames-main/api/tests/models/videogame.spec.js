@@ -1,5 +1,5 @@
-const { Videogame, conn } = require('../../src/db.js');
-const { expect } = require('chai');
+const { Videogame, Genre, conn } = require('../../src/db.js');
+const expect = require('chai').expect;
 
 describe('Videogame model', () => {
   before(() => conn.authenticate()
@@ -15,8 +15,25 @@ describe('Videogame model', () => {
           .catch(() => done());
       });
       it('should work when its a valid name', () => {
-        Recipe.create({ name: 'Super Mario Bros' });
+        Videogame.create({ name: 'Super Mario Bros' });
       });
     });
   });
+
+  describe('Validators II', () => {
+    beforeEach(() => Genre.sync({ force:true }));
+    describe('name', () => {
+      it('should throw an error if name is null', (done) => {
+        Genre.create({})
+        .then(() => done(new Error('It requires a valid name')))
+        .catch(() => done());
+      });
+      it('should work when its a valid name', () => {
+        Genre.create({name: "action" });
+      });
+      it('name should be a string', () => {
+        expect(typeof Genre.name).equal('string');
+      })
+    })
+  })
 });

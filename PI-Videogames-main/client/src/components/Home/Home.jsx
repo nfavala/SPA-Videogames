@@ -20,7 +20,7 @@ import {
 export default function Home() {
     const dispatch = useDispatch();
     const allVideogames = useSelector(state => state.videoGames);
-    const videogameState = useSelector(state => state.allVideogames);
+    // const videogameState = useSelector(state => state.allVideogames);
 
     const [currentPages, setCurrentPages] = useState(1);
     const [gamesPerPage, setGamesPerPage] = useState(15);
@@ -37,11 +37,11 @@ export default function Home() {
     useEffect(() => {
         dispatch(getGenres());
         dispatch(getPlatforms());
-      }, []);
+      }, [dispatch]);
     
       useEffect(() => {
         dispatch(getVideoGames());
-      }, []);
+      }, [dispatch]);
 
        if (!allVideogames.length) {
     return <Loader />;
@@ -79,6 +79,7 @@ export default function Home() {
     setCurrentPages(1);
     setOrder(e.target.value);
   }
+
 
   return (
     <div>

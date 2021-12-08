@@ -3,18 +3,31 @@ import axios from "axios";
 export function getVideoGames() {
     return async function (dispatch) {
         var response = await axios.get("http://localhost:3001/videogames");
-    return dispatch({
+        dispatch({
         type: "GET_VIDEOGAMES",
         payload: response.data
     })  
   }
 };
 
+// export function getVideoGames() {
+//     return function (dispatch){
+//     axios.get("http://localhost:3001/videogames")
+//         .then(response => {
+//             dispatch({
+//                 type: "GET_VIDEOGAMES",
+//                 payload: response.data
+//         })
+//     })
+//   }
+// };
+
+
 export function getVideogameName(name) {
     return async function (dispatch) {
         try{
             var response = await axios.get(`http://localhost:3001/videogames?name=${name}`);
-            return dispatch({
+            dispatch({
                 type: "GET_VIDEOGAME_NAME",
                 payload: response.data
             })
@@ -27,7 +40,7 @@ export function getVideogameName(name) {
 export function getGenres() {
     return async function (dispatch) {
         var info = await axios.get("http://localhost:3001/genre", {});
-        return dispatch({
+         dispatch({
             type: "GET_GENRES",
             payload: info.data
         })
@@ -37,7 +50,7 @@ export function getGenres() {
 export function getPlatforms() {
     return async function (dispatch) {
         const info = await axios.get("http://localhost:3001/platform");
-        return dispatch({ 
+        dispatch({ 
             type: "GET_PLATFORMS", 
             payload: info.data });
     };
@@ -48,8 +61,7 @@ export function getDetail(id) {
         return async function (dispatch) {
             try{
                 const details = await axios.get(`http://localhost:3001/videogames/${id}`)
-                console.log(details, "esto es details del actions")
-                return dispatch ({ 
+                dispatch ({ 
                     type: "GET_DETAIL",
                     payload: details.data
                 })

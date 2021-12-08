@@ -13,7 +13,7 @@ export default function GameCard ({name, image, genres, id, rating}) {
                 <Link to={"/videogame/" + id}>
                     <img className="game-image"
                          src={image||imageDefault}
-                         alt="Image not found" 
+                         alt="not found" 
                          width="450px"
                          height="380px"
                          />

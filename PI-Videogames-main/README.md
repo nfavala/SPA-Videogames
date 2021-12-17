@@ -5,7 +5,7 @@
 # Full stack Project - SPA Videogames
 
 <p align="center">
-  <img height="300" src="client\src\components\images\landing videogames.png" />
+  <img height="300" src="client\src\components\images\landing videogames.png" </img>
 </p>
 
 ## Objetivos del Proyecto

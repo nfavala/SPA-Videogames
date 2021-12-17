@@ -40,13 +40,11 @@ __IMPORTANTE__: Para poder utilizar esta API externa es necesario crearse una cu
 - [ ] Sequelize - Postgres
 
 ## Imagenes del proyecto
-<p>
-  <img height="200" src='client\src\components\images\Home video games.png'</img>
-</p>
-<p>
+<p align='left'>
+  <img height="200" src='client\src\components\images\Home video games.png'</img> 
   <img height="200" src='client\src\components\images\pagination videogames.png'</img>
 </p>
-<p>
+<p align='right'>
   <img height="200" src='client\src\components\images\create form videogames.png'</img>
 </p>
 

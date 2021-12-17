@@ -43,7 +43,7 @@ __IMPORTANTE__: Para poder utilizar esta API externa es necesario crearse una cu
 <div align='center'>
   <img height="300" src='client\src\components\images\Home video games.png'</img> 
 </div>
-<div align='left'>
+<div align='center'>
    <img height="290" src='client\src\components\images\pagination videogames.png'</img>
   </div>
 <p align='center'>

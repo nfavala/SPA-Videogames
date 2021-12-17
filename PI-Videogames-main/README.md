@@ -31,7 +31,7 @@ El contenido de `client` fue creado usando: Create React App.
   - Filtrarlos / Ordenarlos
   - Agregar nuevos videojuegos
 
-__IMPORTANTE__: Para poder utilizar esta API externa es necesario crearse una cuenta para <br>obtener una API Key https://rawg.io/
+__IMPORTANTE__: Para poder utilizar esta API externa es necesario crearse una cuenta para obtener una API Key https://rawg.io/
 
 #### Tecnologías utilizadas:
 - [ ] React
@@ -41,8 +41,13 @@ __IMPORTANTE__: Para poder utilizar esta API externa es necesario crearse una cu
 
 ## Imagenes del proyecto
 <p>
-  <img height="200" src='client\src\components\images\landing videogames.png'</img>
   <img height="200" src='client\src\components\images\Home video games.png'</img>
+</p>
+<p>
+  <img height="200" src='client\src\components\images\pagination videogames.png'</img>
+</p>
+<p>
+  <img height="200" src='client\src\components\images\create form videogames.png'</img>
 </p>
 
 

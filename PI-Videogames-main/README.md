@@ -1,9 +1,6 @@
 
 # Full stack Project - SPA Videogames
 ![ScreenShot](https://github.com/nfavala/SPA-Videogames/blob/main/PI-Videogames-main/client/src/components/images/landing%20videogames.png)
-<p align="center">
-  <img height="300" src='client\src\components\images\landing videogames.png'</img>
-</p>
 
 ## Objetivos del Proyecto
 
@@ -21,7 +18,6 @@ Actualmente las versiónes necesarias para este proyecto son:
  * __React-Router__: 6.0.2 o mayor
 
 
-
 ## BoilerPlate
 
 El boilerplate cuenta con dos carpetas: `api` y `client`. En estas carpetas estará el código del back-end y el front-end respectivamente.
@@ -29,7 +25,6 @@ El boilerplate cuenta con dos carpetas: `api` y `client`. En estas carpetas esta
 El contenido de `client` fue creado usando: Create React App.
 
 ## Contenido de la aplicación 
-
 
   - Listar un catalogo de videojuegos
   - Buscar videjuegos
@@ -45,6 +40,10 @@ __IMPORTANTE__: Para poder utilizar esta API externa es necesario crearse una cu
 - [ ] Sequelize - Postgres
 
 ## Imagenes del proyecto
+<p>
+  <img height="200" src='client\src\components\images\landing videogames.png'</img>
+  <img height="200" src='client\src\components\images\Home video games.png'</img>
+</p>
 
 
 ## Quick resume

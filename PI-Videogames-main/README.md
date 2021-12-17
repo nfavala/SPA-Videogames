@@ -42,7 +42,6 @@ __IMPORTANTE__: Para poder utilizar esta API externa es necesario crearse una cu
 ## Imagenes del proyecto
 <div align='left'>
   <img height="200" src='client\src\components\images\Home video games.png'</img> 
-  <img height="200" src='client\src\components\images\pagination videogames.png'</img>
 </div>
 <div align='right'>
    <img height="200" src='client\src\components\images\pagination videogames.png'</img>

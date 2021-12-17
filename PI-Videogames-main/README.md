@@ -1,9 +1,6 @@
-<p align='center'>
-    <img src='client\src\components\images\landing videogames.png' </img>
-</p>
 
 # Full stack Project - SPA Videogames
-![ScreenShot](https://github.com/nfavala/SPA-Videogames/blob/main/PI-Videogames-main/client/src/components/images/landingIMG.jpg)
+![ScreenShot](https://github.com/nfavala/SPA-Videogames/blob/main/PI-Videogames-main/client/src/components/images/landing%20videogames.png)
 <p align="center">
   <img height="300" src='client\src\components\images\landing videogames.png'</img>
 </p>

@@ -1,11 +1,11 @@
 <p align='center'>
-    <img src='client\src\components\images\yellow-line.png' </img>
+    <img src='client\src\components\images\landing videogames.png' </img>
 </p>
 
 # Full stack Project - SPA Videogames
-
+![ScreenShot](https://github.com/nfavala/SPA-Videogames/blob/main/PI-Videogames-main/client/src/components/images/landingIMG.jpg)
 <p align="center">
-  <img height="300" src="client\src\components\images\landing videogames.png" </img>
+  <img height="300" src='client\src\components\images\landing videogames.png'</img>
 </p>
 
 ## Objetivos del Proyecto
